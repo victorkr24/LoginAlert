@@ -9,13 +9,13 @@ function App() {
   const mostrarAlerta = () => {
     swal({
       title: "Eliminar",
-      text: "estas seguro que sedeas eliminart este archivo ",
+      text: "estas seguro que sedeas eliminar este archivo ",
       icon: "warning",
       buttons: ["No", "Si"],
     }).then((respuesta) => {
       if (respuesta) {
         swal({
-          text: "El archivo se ha borrado con exito ",
+          text: "El archivo se ha borrado con exito  y se esta modificando desde la computadora de la",
           icon: "success",
           timer: 3000,
         });
@@ -40,7 +40,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <button onClick={() => mostrarAlerta()}>Mostrar Alerta</button>
+      <button onClick={() => mostrarAlerta()}>
+        Mostrar Cambios desde Github
+      </button>
     </>
   );
 }

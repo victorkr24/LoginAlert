@@ -9,13 +9,13 @@ function App() {
   const mostrarAlerta = () => {
     swal({
       title: "Eliminar",
-      text: "estas seguro que sedeas eliminart este archivo ",
+    
       icon: "warning",
       buttons: ["No", "Si"],
     }).then((respuesta) => {
       if (respuesta) {
         swal({
-          text: "El archivo se ha borrado con exito ",
+          text: "El archivo se ha borrado con satisfaccion ",
           icon: "success",
           timer: 3000,
         });
@@ -33,6 +33,12 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+
+         <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+
+        
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>

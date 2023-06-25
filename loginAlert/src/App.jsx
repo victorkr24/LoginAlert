@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="www.google.com">Este es un link</a>
+        <a href="www.google.com">Este es un link cambiado desde online</a>
       </div>
       <h1>Vite + React</h1>
       <div className="card">

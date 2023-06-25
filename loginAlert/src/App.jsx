@@ -15,7 +15,7 @@ function App() {
     }).then((respuesta) => {
       if (respuesta) {
         swal({
-          text: "El archivo se ha borrado con exito  y se esta modificando desde la computadora de la",
+          text: "El archivo se ha borrado con satisfaccion ",
           icon: "success",
           timer: 3000,
         });
@@ -33,6 +33,11 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
